@@ -8,4 +8,5 @@ install:
 script:
     - npm version
     - node index.js --from . --to . --max 10
-    - node index.js --from . --to .
+    - node index.js --from node_modules --to .
+sudo: true
