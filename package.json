@@ -1,0 +1,50 @@
+{
+  "name": "cp-random",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Copy random files to a specific folder",
+  "author": {
+    "name": "Tiago Danin",
+    "email": "TiagoDanin@outlook.com",
+    "url": "https://TiagoDanin.github.io"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cp",
+    "random",
+    "files",
+    "folder",
+    "bin",
+    "cli"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "private": false,
+  "repository": "https://github.com/TiagoDanin/CP-Random.git",
+  "homepage": "https://TiagoDanin.github.io/CP-Random",
+  "bugs": "https://github.com/TiagoDanin/CP-Random/issues",
+  "github": {
+    "name": "CP-Random",
+    "owner": "TiagoDanin"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "bin": {
+    "cp-random": "index.js"
+  },
+  "dependencies": {
+    "minimist": "1.2.0"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "related": [
+    "thanos-nodejs"
+  ]
+}
