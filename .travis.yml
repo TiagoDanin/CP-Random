@@ -7,6 +7,6 @@ install:
     - npm install --save-dev
 script:
     - npm version
-    - node index.js --from . --to . --max 10
+    - node index.js --from node_modules --to . --max 5
     - node index.js --from node_modules --to .
 sudo: true
