@@ -38,7 +38,7 @@
     "cp-random": "index.js"
   },
   "dependencies": {
-    "minimist": "1.2.2"
+    "minimist": "1.2.5"
   },
   "preferGlobal": true,
   "engines": {
