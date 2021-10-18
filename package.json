@@ -42,7 +42,7 @@
   },
   "preferGlobal": true,
   "engines": {
-    "node": ">=8"
+    "node": ">=v14.18.1"
   },
   "related": [
     "thanos-nodejs"
